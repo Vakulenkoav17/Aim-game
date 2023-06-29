@@ -116,8 +116,6 @@ function createRandCircle() {
   circle.style.left = `${x}px`;
   circle.style.background = rgbColor;
   circle.style.boxShadow = `0 0 2px ${rgbColor}, 0 0 10px ${rgbColor}`;
-  ``;
-
   board.append(circle);
 }
 
