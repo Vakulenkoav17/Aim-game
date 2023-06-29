@@ -27,7 +27,7 @@ body.onkeydown = (e) => {
 
 startBtn.addEventListener("click", (event) => {
   event.preventDefault();
-  soundPlay = confirm("Включить музлоу ?");
+  soundPlay = confirm("Включить музыку ?");
 
   if (soundPlay === true) {
     mainSound.volume = 0.3;
